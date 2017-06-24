@@ -1,5 +1,6 @@
 package com.example.hoobo.hoobo;
 
+import android.content.Intent;
 import android.media.MediaPlayer;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
@@ -48,11 +49,13 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
     public void onClick(View v) {
 
         if(v == btnLogin){
-            //LoginActivity
+            finish();
+            startActivity(new Intent(this, loginPage.class));
         }
 
         if(v == btnSignUp){
-            //SignUp activity
+            finish();
+            startActivity(new Intent(this, SignUP1.class ));
 
         }
     }

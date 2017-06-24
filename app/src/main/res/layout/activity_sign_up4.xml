@@ -24,7 +24,7 @@
         app:layout_constraintVertical_bias="0.239" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/txtPassword1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -42,7 +42,7 @@
         app:layout_constraintVertical_bias="0.444" />
 
     <EditText
-        android:id="@+id/editText7"
+        android:id="@+id/txtPassword2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
