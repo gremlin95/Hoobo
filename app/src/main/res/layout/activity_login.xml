@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hoobo.hoobo.Login">
+
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="0dp"
+        android:layout_height="89dp"
+        android:background="#FFD54F"
+        android:text="SIGN UP"
+        android:textColor="#FAFAFA"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnLogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText"
+        tools:layout_editor_absoluteX="-24dp"
+        tools:layout_editor_absoluteY="397dp" />
+
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="414dp"
+        android:layout_height="89dp"
+        android:background="#80DEEA"
+        android:lineSpacingExtra="10sp"
+        android:text="Login"
+        android:textColor="#FAFAFA"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText"
+        tools:layout_editor_absoluteX="-15dp"
+        tools:layout_editor_absoluteY="486dp" />
+
+    <VideoView
+        android:id="@+id/bgVideoView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/btnSignUp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

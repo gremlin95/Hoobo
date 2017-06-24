@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "111308491691",
+    "firebase_url": "https://hoobo-3bd7b.firebaseio.com",
+    "project_id": "hoobo-3bd7b",
+    "storage_bucket": "hoobo-3bd7b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:111308491691:android:3bda2aa871662143",
+        "android_client_info": {
+          "package_name": "com.example.hoobo.hoobo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "111308491691-5a734o1q1hch1foivfkbcab0en4dvndo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hoobo.hoobo",
+            "certificate_hash": "e7aff0225ccc92323bdca89649821713faa2d949"
+          }
+        },
+        {
+          "client_id": "111308491691-cijoer7n4690d46cdo8ijeto1cscf2at.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFtKlnSFt8wIjRKBy4MUamrDTn-nKDvKk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "111308491691-cijoer7n4690d46cdo8ijeto1cscf2at.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
