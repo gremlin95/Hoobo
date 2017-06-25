@@ -16,30 +16,32 @@
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
         android:text="Phone No / Email"
+        android:textAlignment="center"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintHorizontal_bias="0.365"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.135" />
+        app:layout_constraintVertical_bias="0.137" />
 
     <TextView
         android:id="@+id/txtPwd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Password"
-        android:textSize="30sp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Password"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.417"
+        app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="8dp"
-        android:layout_marginLeft="8dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintHorizontal_bias="0.08"
-        app:layout_constraintVertical_bias="0.499" />
+        app:layout_constraintVertical_bias="0.44" />
 
 
     <EditText
@@ -56,8 +58,7 @@
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintHorizontal_bias="0.166"
-        app:layout_constraintVertical_bias="0.252" />
+        app:layout_constraintVertical_bias="0.286" />
 
     <EditText
         android:id="@+id/inputPwd"
@@ -73,8 +74,7 @@
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintHorizontal_bias="0.166"
-        app:layout_constraintVertical_bias="0.596" />
+        app:layout_constraintVertical_bias="0.598" />
 
     <TextView
         android:id="@+id/txtForgot"
@@ -103,7 +103,7 @@
 
         android:layout_width="270dp"
         android:layout_height="60dp"
-        android:background="@drawable/transparentbutton"
+        android:background="@drawable/buttondesign"
         android:shadowColor="#A8A8A8"
         android:shadowDx="0"
         android:shadowDy="0"

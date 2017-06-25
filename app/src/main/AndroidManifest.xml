@@ -29,7 +29,7 @@
         <activity android:name=".SignUP1" />
         <activity android:name=".SignUp2" />
         <activity android:name=".SignUp3" />
-        <activity android:name=".SignUp4"></activity>
+        <activity android:name=".SignUp4" />
     </application>
 
 </manifest>

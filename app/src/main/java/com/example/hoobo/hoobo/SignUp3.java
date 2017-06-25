@@ -11,7 +11,6 @@ public class SignUp3 extends AppCompatActivity implements View.OnClickListener {
 
     Button btnNext2;
     EditText txtPhone;
-    EditText txtSignUpEmail;
     EditText txtBday;
 
     @Override
@@ -21,7 +20,6 @@ public class SignUp3 extends AppCompatActivity implements View.OnClickListener {
 
         btnNext2 = (Button) findViewById(R.id.btnNext2);
         txtPhone = (EditText) findViewById(R.id.txtPhone);
-        txtSignUpEmail = (EditText) findViewById(R.id.txtSignupEmail);
         txtBday = (EditText) findViewById(R.id.txtBday);
 
         btnNext2.setOnClickListener(this);
