@@ -30,6 +30,7 @@
         <activity android:name=".SignUp2" />
         <activity android:name=".SignUp3" />
         <activity android:name=".SignUp4" />
+        <activity android:name=".SplashScreen"></activity>
     </application>
 
 </manifest>

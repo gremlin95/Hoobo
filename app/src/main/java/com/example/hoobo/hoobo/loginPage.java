@@ -32,9 +32,6 @@ public class loginPage extends AppCompatActivity implements View.OnClickListener
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_page);
 
-        //Declare the stuff
-        btnLogin2 = (Button) findViewById(R.id.btnLogin2);
-
         fbAuth = FirebaseAuth.getInstance();
 
         if(fbAuth.getCurrentUser()!= null){
@@ -44,6 +41,9 @@ public class loginPage extends AppCompatActivity implements View.OnClickListener
             startActivity(new Intent(getApplicationContext(), MainActivity.class));
         }
 
+
+        //Declare the stuff
+        btnLogin2 = (Button) findViewById(R.id.btnLogin2);
         progressDialog = new ProgressDialog(this);
 
         inputEmail = (EditText) findViewById(R.id.inputEmail);

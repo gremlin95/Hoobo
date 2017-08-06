@@ -9,16 +9,29 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.VideoView;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 public class Login extends AppCompatActivity implements View.OnClickListener {
 
     private VideoView bgView ;
     private Button btnSignUp ;
     private Button btnLogin ;
+    private FirebaseAuth fbAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
+        fbAuth = FirebaseAuth.getInstance();
+
+        if(fbAuth.getCurrentUser()!= null){
+            //user already logged in
+            //Mainpage here
+            finish();
+            startActivity(new Intent(getApplicationContext(), MainActivity.class));
+        }
+
 
         //Declaration of Stuff
         bgView = (VideoView) findViewById(R.id.bgVideoView);

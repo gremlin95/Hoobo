@@ -21,12 +21,12 @@ public class SignUp4 extends AppCompatActivity implements View.OnClickListener {
 
 
 
-    Button btnRegister;
-    EditText txtPassword1;
-    EditText txtPassword2;
-    EditText signupEmail;
-    FirebaseAuth firebaseAuth;
-    ProgressDialog progressDialog;
+    private Button btnRegister;
+    private EditText txtPassword1;
+    private EditText txtPassword2;
+    private EditText signupEmail;
+    private FirebaseAuth firebaseAuth;
+    private ProgressDialog progressDialog;
 
 
 
